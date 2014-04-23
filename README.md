@@ -3,7 +3,13 @@
 This example demonstrates how JBossWS/CXF clients behave and how to configure
 them to behave according to your needs.
 
-##Options
+##Deploying
+
+```
+mvn jboss-as:deploy
+```
+
+##Running the test and Options
 `test.sh` will use `curl` to invoke a client servlet, which will then invoke a
 SOAP endpoint.  The script will concurrently invoke the servlet 30 times,
 causing 30 threads to be spawned by JBossWeb to handle all the requests.  There
