@@ -78,7 +78,7 @@ public class Client
   private static Service createService(boolean useTcclStrategy) throws Exception
   {
     QName serviceName = new QName("http://ws.gss.redhat.com/", "BigHelloService");
-    URL wsdl = new URL("http://localhost:8080/hugeWsdl/BigHello?wsdl");
+    URL wsdl = new URL("http://localhost:8080/cxfClientBusTest/BigHello?wsdl");
     if(useTcclStrategy)
     {
       return Service.create(wsdl, serviceName, new UseTCCLBusFeature());
