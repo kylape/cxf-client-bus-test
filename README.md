@@ -1,4 +1,4 @@
-#JBossWS?CXF Client Tests
+#JBossWS/CXF Client Tests
 
 This example demonstrates how JBossWS/CXF clients behave and how to configure
 them to behave according to your needs.
@@ -14,4 +14,4 @@ are two options that can be added to the URL passed to `curl`:
 - `?useTcclStrategy`: This will cause any `Service` object created duing this
   particular invocation to be created with the `UseTCCLBusFeature`, as described [here](https://docs.jboss.org/author/display/JBWS/Apache+CXF+integration#ApacheCXFintegration-BusselectionstrategiesforJAXWSclients).
 
-**WARNING**: If you do not use either of the above options, *expect your JBoss server to thrash while it runs out of memory*.
+**WARNING**: If you do not use either of the above options, *expect your JBoss server to run out of memory*.
