@@ -5,9 +5,9 @@ them to behave according to your needs.
 
 ##Code
 There are tons of Java files in this project since the purpose is to create a
-very large WSDL which takes up a lot of memory within a `Bus` object.  The
-pertinent classes that show how to properly utilize JBossWS and JAX-WS APIs and
-synchronize client creation and invocation, [look
+very large WSDL which takes up a lot of memory within a `Bus` object.  To view
+the pertinent classes that show how to properly utilize JBossWS and JAX-WS APIs
+and synchronize client creation and invocation, [look
 here](https://github.com/kylape/cxfClientBusTest/tree/master/src/main/java/com/redhat/gss/ws).
 
 
